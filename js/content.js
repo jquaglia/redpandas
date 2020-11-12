@@ -6,7 +6,7 @@ var greeting;
 
 if(hourNow > 17) {
     greeting = 'Good evening!';
-} else if (hourNow > 12) {
+} else if (hourNow > 11) {
     greeting = 'Good afternoon!';
 } else if (hourNow > 0) {
     greeting = 'Good morning!'
