@@ -21,12 +21,15 @@ function dailyGreeting(){
 function colorPanda(){
     let favColor = prompt('What is you favorite color Panda?');
     let color;
+    let goodColor = ['red', 'black']
 
-if(favColor != 'red'){
+ if(favColor != 'red'){
     color = 'Boooo';
 } else if (favColor = 'red'){
     color = 'Yeaaaaa'
-} else color = 'whaaaaaaa'
+} else color = 'Whaaaaaa'
+
+
 
 document.write('<h4>' + color + '</h4>' )
 }
